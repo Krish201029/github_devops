@@ -41,3 +41,16 @@ git merge <-branch name-> // to merge 2 branches
 or 
 
 create pull request which let's you tell other about changes you've pushed to branch in repo in github
+
+undo git changes commands->
+
+case 1 : staged changes - 
+git reset<-filename->
+git reset
+
+case 2 : commited changes( one commit) -
+git reset HEAD~1
+
+case 3 : commited changes (for many commits) -
+git reset<-commit hash-> 
+git reset --hard<-commit hash->
