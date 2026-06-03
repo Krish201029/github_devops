@@ -8,11 +8,15 @@ git --version // chech git version
 git config --global user.name "MyName"
 git config --global user.email "any@gmail.com"
 git config --list
-git init
+git init // create new git repository
+git remote add origin <-link->
+git remote -v // to verify remote
+git branch // to check branch
+git branch -M main // to rename branch
+git push origin main
 git add <-filename-> // to add new or changed files in your working directory to git staging area &
 //git add . to add multiple files at once
 git commit -m "Some text" // record of changes
-git push origin main
 git status
 rm <-filename-> // to remove file temporarily
 git restore <-filename-> // to restore temporarily remove file
