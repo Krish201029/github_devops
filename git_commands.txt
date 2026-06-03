@@ -12,6 +12,7 @@ git init
 git add <-filename-> // to add new or changed files in your working directory to git staging area &
 //git add . to add multiple files at once
 git commit -m "Some text" // record of changes
+git push origin main
 git status
 rm <-filename-> // to remove file temporarily
 git restore <-filename-> // to restore temporarily remove file
