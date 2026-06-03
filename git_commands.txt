@@ -10,11 +10,12 @@ git config --global user.name "MyName"
 git config --global user.email "any@gmail.com"
 git config --list
 git init // create new git repository or make local repo as git repo 
-git remote add origin <-link->
+git remote add origin <-link-> // when we make new repo in github and to add that remote repo in local repo to make changes
 git remote -v // to verify remote
 git branch // to check branch
 git branch -M main // to rename branch
-git push origin master
+git push origin master // or origin main after renaming master branch to main using preceeding command
+git push // to push readme.md file only
 git add <-filename-> // to add new or changed files in your working directory to git staging area &
 //git add . to add multiple files at once
 git commit -m "Some text" // record of changes
@@ -24,3 +25,35 @@ git restore <-filename-> // to restore temporarily remove file
 untracked -> new files that git doesn't track yet
 modified -> changed
 staged -> file ready to be commited
+
+git branche commands
+git branch // to check branch
+git branch -M main // to rename branch
+git branch -d <-branch name -> // to delete branch
+git checkout <-branch name-> // to navigate or goto desired branch 
+git checkout -b <-new branch name -> // to create new branch
+git log --graph --oneline --all // Shows branch history visually.
+
+merging code ->
+git diff<-branch name-> // to compare commits,branches,files & more
+git merge <-branch name-> // to merge 2 branches
+
+or 
+
+create pull request which let's you tell other about changes you've pushed to branch in repo in github
+
+undo git changes commands->
+
+case 1 : staged changes - 
+git reset<-filename->
+git reset
+
+case 2 : commited changes( one commit) -
+git reset HEAD~1
+
+case 3 : commited changes (for many commits) -
+git reset<-commit hash-> // use git log to get commit hash
+git reset --hard<-commit hash->
+
+fork - new rough copy repo that shares code and visibility setting with original " upstream " repo
+can do by searching any repo on github , and select fork.
