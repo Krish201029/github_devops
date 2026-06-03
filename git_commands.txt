@@ -1,10 +1,20 @@
-                                                                                                
-   git commit -m "added testing files"                                                                                 
-   git status                                                                                                          
-   rm testing.py                                                                                                       
-   git restore testing.py  
-   git add
-   git init
-this is new
-update kiya
-fir se
+git clone <-repository url -> // to clone a github repository on local system
+// & you will get url in greencolour code's htps section to copy 
+cd <-directory name with it's type like .py or .txt , etc -> // to change directory
+ls & ls-a // to list all files in a directory
+clear // to clear all terminal things
+we update readme files using html language on github or locally
+git --version // chech git version
+git config --global user.name "MyName"
+git config --global user.email "any@gmail.com"
+git config --list
+git init
+git add <-filename-> // to add new or changed files in your working directory to git staging area &
+//git add . to add multiple files at once
+git commit -m "Some text" // record of changes
+git status
+rm <-filename-> // to remove file temporarily
+git restore <-filename-> // to restore temporarily remove file
+untracked -> new files that git doesn't track yet
+modified -> changed
+staged -> file ready to be commited
