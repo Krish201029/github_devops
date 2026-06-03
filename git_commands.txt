@@ -15,6 +15,7 @@ git remote -v // to verify remote
 git branch // to check branch
 git branch -M main // to rename branch
 git push origin master // or origin main after renaming master branch to main using preceeding command
+git push // to push readme.md file only
 git add <-filename-> // to add new or changed files in your working directory to git staging area &
 //git add . to add multiple files at once
 git commit -m "Some text" // record of changes
