@@ -1,6 +1,7 @@
 git clone <-repository url -> // to clone a github repository on local system
 // & you will get url in greencolour code's htps section to copy 
-cd <-directory name with it's type like .py or .txt , etc -> // to change directory
+cd <-directory name with it's type like .py or .txt , etc -> // to change directory 
+mkdir to make new directory // cd .. to exit working directory
 ls & ls-a // to list all files in a directory
 clear // to clear all terminal things
 we update readme files using html language on github or locally
@@ -8,12 +9,12 @@ git --version // chech git version
 git config --global user.name "MyName"
 git config --global user.email "any@gmail.com"
 git config --list
-git init // create new git repository
+git init // create new git repository or make local repo as git repo 
 git remote add origin <-link->
 git remote -v // to verify remote
 git branch // to check branch
 git branch -M main // to rename branch
-git push origin main
+git push origin master
 git add <-filename-> // to add new or changed files in your working directory to git staging area &
 //git add . to add multiple files at once
 git commit -m "Some text" // record of changes
