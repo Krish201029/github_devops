@@ -30,5 +30,5 @@ git branche commands
 git branch // to check branch
 git branch -M main // to rename branch
 git branch -d <-branch name -> // to delete branch
-git checkout <-branch name-> // to navigate
+git checkout <-branch name-> // to navigate or goto desired branch 
 git checkout -b <-new branch name -> // to create new branch
