@@ -40,3 +40,4 @@ git merge <-branch name-> // to merge 2 branches
 or 
 
 create pull request which let's you tell other about changes you've pushed to branch in repo in github
+git pull origin main // to fetch & download content from remote repo & immediately update local repo to match content
