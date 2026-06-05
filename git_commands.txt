@@ -1,8 +1,0 @@
-                                                                                                
-   git commit -m "added testing files"                                                                                 
-   git status                                                                                                          
-   rm testing.py                                                                                                       
-   git restore testing.py  
-   git add
-   git init
-this is new
